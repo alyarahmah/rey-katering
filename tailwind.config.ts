@@ -8,14 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'sans-serif'],
+        serif: ['"Playfair Display"', 'Georgia', 'serif'],
+      },
       colors: {
         catering: {
-          gold: "#D97706", // Amber-600
-          goldLight: "#F59E0B", // Amber-500
-          goldDark: "#B45309", // Amber-700
-          emerald: "#065F46", // Emerald-800
-          emeraldLight: "#047857", // Emerald-700
-          emeraldSoft: "#ECFDF5", // Emerald-50
+          gold: "#D97706",
+          goldLight: "#F59E0B",
+          goldDark: "#B45309",
+          emerald: "#065F46",
+          emeraldLight: "#047857",
+          emeraldSoft: "#ECFDF5",
           warmBg: "#FFFDF9",
           warmBorder: "#FDE68A",
         },
