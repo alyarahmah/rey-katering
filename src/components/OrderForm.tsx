@@ -9,7 +9,7 @@ export default function OrderForm() {
   const googleFormDirectUrl =
     'https://docs.google.com/forms/d/e/1FAIpQLScv0K9qq01i81ERh9zTp9Iq2CecyWCzdA9zODVQktGw-nhT1Q/viewform';
   const waUrl =
-    'https://wa.me/6281223707322?text=Halo%20Rey%20Catering,%20saya%20ingin%20bertanya%20mengenai%20reservasi%20paket%20katering.';
+    'https://wa.me/6283830003436?text=Halo%20Rey%20Catering,%20saya%20ingin%20bertanya%20mengenai%20reservasi%20paket%20katering.';
 
   return (
     <section id="pesan" className="py-24 border-t border-stone-200/60 bg-[#FAF7F2]">

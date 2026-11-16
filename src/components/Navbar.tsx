@@ -25,7 +25,7 @@ export default function Navbar() {
   ];
 
   const waHref =
-    'https://wa.me/6281223707322?text=Halo%20Rey%20Catering,%20saya%20ingin%20bertanya%20mengenai%20paket%20katering.%20Mohon%20informasi%20pilihan%20menu,%20harga,%20dan%20ketersediaan%20jadwal%20untuk%20acara%20saya.';
+    'https://wa.me/6283830003436?text=Halo%20Rey%20Catering,%20saya%20ingin%20bertanya%20mengenai%20paket%20katering.%20Mohon%20informasi%20pilihan%20menu,%20harga,%20dan%20ketersediaan%20jadwal%20untuk%20acara%20saya.';
 
   return (
     <header
