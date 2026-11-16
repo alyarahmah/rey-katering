@@ -1,11 +1,9 @@
 'use client';
 
-import React, { useState } from 'react';
-import { ExternalLink, MessageCircle, Loader2 } from 'lucide-react';
+import React from 'react';
+import { ExternalLink, MessageCircle } from 'lucide-react';
 
 export default function ComplaintForm() {
-  const [isLoading, setIsLoading] = useState(true);
-
   const googleFormEmbedUrl =
     'https://docs.google.com/forms/d/e/1FAIpQLSdTs8HDMso-HunZ-RXv2ODOVT2WMbtWpzGXjnHOHD_WCKq8Fg/viewform?embedded=true';
   const googleFormDirectUrl =
@@ -53,14 +51,7 @@ export default function ComplaintForm() {
         </div>
 
         {/* Embedded Google Form Card */}
-        <div className="relative bg-white rounded-3xl border border-stone-200/80 shadow-xs overflow-hidden">
-          {isLoading && (
-            <div className="absolute inset-0 z-10 flex items-center justify-center bg-white/80 backdrop-blur-xs text-stone-500 text-xs gap-2">
-              <Loader2 className="w-5 h-5 animate-spin text-stone-700" />
-              <span>Memuat formulir keluhan...</span>
-            </div>
-          )}
-
+        <div className="bg-white rounded-3xl border border-stone-200/80 shadow-xs overflow-hidden">
           <iframe
             src={googleFormEmbedUrl}
             width="100%"
@@ -68,11 +59,10 @@ export default function ComplaintForm() {
             frameBorder="0"
             marginHeight={0}
             marginWidth={0}
-            onLoad={() => setIsLoading(false)}
             title="Formulir Perubahan Pesanan atau Keluhan Rey Catering"
-            className="w-full transition-opacity duration-300"
+            className="w-full"
           >
-            Memuat…
+            Memuat formulir…
           </iframe>
         </div>
       </div>
