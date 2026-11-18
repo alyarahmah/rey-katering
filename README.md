@@ -2,7 +2,7 @@
 
 > **Slogan:** *"Harga Murah, Kualitas Mewah"*  
 > **Lokasi Dapur:** Kp. Babakan Kalapa RT03 RW 07, Desa Pataruman, Kec. Tarogong Kidul, Garut, Jawa Barat  
-> **Kontak WhatsApp:** [0838-3000-3436](https://wa.me/6283830003436)
+> **Kontak WhatsApp:** [0895-2982-8306](https://wa.me/6289529828306)
 
 Website resmi **Rey Catering** dengan konsep **minimalis, elegan, dan siap pakai**. Dibangun menggunakan **Next.js (App Router)** dan **Tailwind CSS**, terintegrasi langsung dengan **Google Forms** untuk menampung seluruh formulir pemesanan dan keluhan tanpa memerlukan database atau pengaturan server yang rumit.
 
@@ -47,7 +47,7 @@ Seluruh data masuk otomatis ditampung ke dalam Google Form & Google Sheets:
    - Kedua Google Form disisipkan secara mulus (*responsive iframe*) dengan opsi tombol cepat buka di tab baru dan konsultasi WhatsApp.
 
 6. **Tombol Melayang WhatsApp:**
-   - Tersemat di pojok kanan bawah langsung menuju WhatsApp `083830003436`.
+   - Tersemat di pojok kanan bawah langsung menuju WhatsApp `089529828306`.
 
 ---
 

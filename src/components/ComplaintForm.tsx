@@ -9,7 +9,7 @@ export default function ComplaintForm() {
   const googleFormDirectUrl =
     'https://docs.google.com/forms/d/e/1FAIpQLSdTs8HDMso-HunZ-RXv2ODOVT2WMbtWpzGXjnHOHD_WCKq8Fg/viewform';
   const waUrl =
-    'https://wa.me/6283830003436?text=Halo%20Rey%20Catering,%20saya%20ingin%20mengajukan%20perubahan%20pesanan%20atau%20keluhan.';
+    'https://wa.me/6289529828306?text=Halo%20Rey%20Catering,%20saya%20ingin%20mengajukan%20perubahan%20pesanan%20atau%20keluhan.';
 
   return (
     <section id="keluhan" className="py-24 border-t border-stone-200/60">

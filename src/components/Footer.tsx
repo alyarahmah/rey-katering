@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function Footer() {
   const waUrl =
-    'https://wa.me/6283830003436?text=Halo%20Rey%20Catering,%20saya%20ingin%20bertanya%20mengenai%20paket%20katering.';
+    'https://wa.me/6289529828306?text=Halo%20Rey%20Catering,%20saya%20ingin%20bertanya%20mengenai%20paket%20katering.';
 
   return (
     <footer className="border-t border-stone-200/60 bg-[#FAF7F2] text-stone-600 py-16">

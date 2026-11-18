@@ -6,7 +6,7 @@ import { ArrowDown, MapPin, MessageCircle } from 'lucide-react';
 
 export default function HeroSection() {
   const waHref =
-    'https://wa.me/6283830003436?text=Halo%20Rey%20Catering,%20saya%20ingin%20konsultasi%20menu%20dan%20jadwal%20acara.';
+    'https://wa.me/6289529828306?text=Halo%20Rey%20Catering,%20saya%20ingin%20konsultasi%20menu%20dan%20jadwal%20acara.';
 
   return (
     <section
